@@ -1,0 +1,113 @@
+*{
+    font-family: Courier;
+    font-size: 12px;
+
+}
+
+body{
+    background-color: #000000;
+}
+
+menu{
+    margin: 20px;
+    padding: 20px;
+    color: #ffffff;
+}
+
+li{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: #ffffff;
+}
+
+a {
+    display: block;
+    padding: 5px 20px;
+    margin: 0;
+    border: 1px solid rgb(252, 252, 252);
+    background: rgb(166, 58, 255);
+    text-decoration: none;
+    /*cantos arredondados*/
+}
+
+a:hover{
+    background: rgb(79, 26, 123);
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+p{
+    color: rgb(255, 255, 255); 
+    font-family: "Courier";
+    font-size: 15px;
+    margin: 10px 0 0 375px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30em;
+    animation: type 4s steps(60, end); 
+    text-align: center;
+  }
+  
+  p:nth-child(2){
+    animation: type2 8s steps(60, end);
+  }
+  
+  p a{
+    color: rgb(166, 58, 255);
+    text-decoration: none;
+  }
+  
+  span{
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes type{ 
+    from { width: 0; } 
+  } 
+  
+  @keyframes type2{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; } 
+  } 
+  
+  @keyframes blink{
+    to{opacity: .0;}
+  }
+  
+  ::selection{
+    background: black;
+  }
+
+  #fotoeu {
+    display: inline-block;
+    position: relative;
+    margin-left: 30%;
+    width: 20%;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+#sobre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+h2{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: auto;
+
+}
+
+h3:hover{
+  color: rgb(166, 58, 255);
+  border-color: #ffffff;
+
+}
