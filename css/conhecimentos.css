@@ -78,14 +78,14 @@
   .conhecimento-text {
     font-family: var(--font-secundary);
     margin-top: 1rem;
+    align-items: center;
   }
   
   .conhecimentos-img-wrapper {
     grid-column: 7 / 11;
     grid-row: 2 / 6;
-    width: 90%;
-    height: 90%;
-    align-items: center;
+    width: 40px;
+    height: 60%;
   }
   
   .conhecimentos-img-wrapper img {
