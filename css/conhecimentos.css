@@ -78,6 +78,7 @@
     font-family: var(--font-secundary);
     margin-top: 1rem;
     align-items: center;
+
 }
   
 .conhecimentos-img-wrapper {
@@ -92,5 +93,28 @@
 .conhecimentos-img-wrapper img {
     object-fit: cover;
     height: 100%;
+}
+
+#text1 {
+    cursor: help;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    top: 50px;
+    left: 50px;
+}
+  #image1-text {
+    background-color: rgba(250, 10, 10, 0.5);
+    padding: 10px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    border-radius: 5%;
+}
+
+#text2 {
+    cursor: help;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    top: 50px;
+    left: 50px;
 }
 

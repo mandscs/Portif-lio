@@ -7,21 +7,20 @@
     <!-- API -->
     <script src="https://unpkg.com/scrollreveal"></script>
      <!-- Conhecimentos -->
-    <link href="./css/conhecimentos.css" rel="stylesheet" type="text/css">]
+    <link href="./css/conhecimentos.css" rel="stylesheet" type="text/css">
      <!-- Home -->
     <link href="./css/home.css" rel="stylesheet" type="text/css">
-     <!-- Spotify -->
-    <link href="./css/music.css" rel="stylesheet" type="text/css">
      <!-- Projetos -->
     <link href="./css/projetos.css" rel="stylesheet" type="text/css">
      <!-- Scroll Js -->
     <link href="./css/scrollReveal.css" rel="stylesheet" type="text/css">
+
     <title>Portifólio | Amanda da Costa</title>
 </head>
 <body>
    <!-- tela inicial -->
       <header id="home">
-        <div class="img-wp">
+      <div class="img-wp">
         <img src="./img/tela.jpg" alt="">
       </div>
       <div class="banner">
@@ -29,13 +28,15 @@
         <p>Amanda da Costa</p>
       </div>
       </header>
-<hr>
- <!-- sessão 1, sobre mim-->
-<section>
-  <div class="resum" id="sobre">
+      <hr>
+    <!-- fim, tela inicial -->
+
+    <!-- sessão 1, sobre mim-->
+  <section>
+    <div class="resum" id="sobre">
     <img src="./img/mandy.jpg" id="fotoeu">
-<div class = "txteu">
-  <h2>Olá, me chamo Amanda.</h2>
+     <div class = "txteu">
+      <h2>Olá, me chamo Amanda.</h2>
     <p>Tenho 20 anos e moro em Jaraguá do Sul - SC.</p>
     <p>Amo a natureza, animais e Harry Potter ϟ</p>
     <br>
@@ -47,19 +48,20 @@
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
     </div>  
+     </div>
     </div>
-  </div>
-  
-</div>
-</section>
-<hr>
+  </section>
+  <hr>
+        <!-- spotify -->
     <div class="spotify" id="music">
       <h1>Minha música Favorita:</h1>
       <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0uwNtbl80CvP4EFio32PYv?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
       <hr>
     </div>
-    <!-- sessao 2, conhecimentos -->
   </section>
+  <!-- fim, sobre mim-->
+
+  <!-- sessao 2, conhecimentos -->
     <section class="sessao-conhecimentos" id="conhecimentos">
         <div class="sessao-header">
           <h1>Conhecimentos</h1>
@@ -67,32 +69,36 @@
         <div class="conhecimentos">
           <div class="conhecimento">
             <div class="conhecimento-header">
-              <img src="" alt="html-icon">
-              <h3>HTML</h3>
+              <h3 id="text1">HTML</h3>
+              <p id="image1-text" style="display:none;" position="absolute" top="10px" left="10px">É uma linguagem de marcação utilizada na costrução de páginas Web</p>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" id= "image1" style="display:none;" width="30px" height="40px" position="absolute";>
             </div>
             <div class="conhecimento-text">
             </div>
           </div>
           <div class="conhecimento" id="css">
             <div class="conhecimento-header">
-              <img src="" alt="css-icon">
-              <h3>CSS</h3>
+              <h3 id="text2">CSS</h3>
+              <p id="image2-text" style="display:none;" position="absolute" top="10px" left="10px">É uma linguagem de marcação para adicionar estilo a um docuemento Web.</p>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" id= "image2" style="display:none;" width="30px" height="40px" position="absolute";>
             </div>
             <div class="conhecimento-text">
             </div>
           </div>
           <div class="conhecimento">
             <div class="conhecimento-header" id="js">
-              <img src="" alt="js-icon">
-              <h3>Javascript</h3>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" id= "image3" style="display:none;" width="30px" height="40px" position="absolute";>
+              <h3 id="text3">Javascript</h3>
+              <p id="image3-text" style="display:none;" position="absolute" top="10px" left="10px">É uma linguagem de programação, utilizada junto com HTML e CSS, é umas das três principais tecnologias da Web.</p>
             </div>
             <div class="conhecimento-text">
             </div>
           </div>
           <div class="conhecimento">
             <div class="conhecimento-header" id="react">
-              <img src="" alt="react-icon">
-              <h3>React</h3>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" id= "image4" style="display:none;" width="30px" height="40px" position="absolute";>
+              <h3 id="text4">React</h3>
+              <p id="image4-text" style="display:none;" position="absolute" top="10px" left="10px">É uma biblioteca JavaScript de código aberto com foco em criar interface de usuário em páginas web</p>
             </div>
             <div class="conhecimento-text">
               </p>
@@ -100,16 +106,18 @@
           </div>
           <div class="conhecimento">
             <div class="conhecimento-header" id="Boostrap">
-              <img src="" alt="bootstrap-icon">
-              <h3>Boostrap</h3>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" id= "image5" style="display:none;" width="30px" height="40px" position="absolute";>
+              <h3 id="text5">Boostrap</h3>
+              <p id="image1-text" style="display:none;" position="absolute" top="10px" left="10px">É um framework com codigo aberto, para desenvolvimento de interfaces para aplicações Web.</p>
             </div>
             <div class="conhecimento-text">
             </div>
           </div>
           <div class="conhecimento">
             <div class="conhecimento-header" id="git">
-              <img src="" alt="gits-icon">
-              <h3>Git e GitHub</h3>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" id= "image6" style="display:none;" width="30px" height="40px" position="absolute";>
+              <h3 id="text6">Git e GitHub</h3>
+              <p id="image1-text" style="display:none;" position="absolute" top="10px" left="10px">É uma plataforma de hoespedagem de código fonte e arquivos com controle de versão usando o Git, usado principalemnte no desenvolvimento de software.</p>
             </div>
             <div class="conhecimento-text">
             </div>
@@ -120,7 +128,8 @@
         </div>
     </section>
     <hr>
-    </section>
+    <!-- fim, conhecimentos -->
+
     <!-- sessão 3, projetos -->
     <section>
     <div class="sessao-projetos" id="projetos">
@@ -159,6 +168,8 @@
       </div>
       <hr>
     </section>
+    <!-- fim, projetos -->
+
      <!-- sessão 4, final -->
       <section>
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
@@ -172,5 +183,7 @@
     </section>
     <script src="js/scrollReveal.js"></script>
     <script src="js/display.js"></script>
+    <script src="js/conhecimentos.js"></script>
+    <!-- final -->
 </body>
 </html>
