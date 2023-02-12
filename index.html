@@ -6,36 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- API -->
     <script src="https://unpkg.com/scrollreveal"></script>
-    <link href="./css/conhecimentos.css" rel="stylesheet" type="text/css">
+     <!-- Conhecimentos -->
+    <link href="./css/conhecimentos.css" rel="stylesheet" type="text/css">]
+     <!-- Home -->
     <link href="./css/home.css" rel="stylesheet" type="text/css">
+     <!-- Spotify -->
     <link href="./css/music.css" rel="stylesheet" type="text/css">
+     <!-- Projetos -->
+    <link href="./css/projetos.css" rel="stylesheet" type="text/css">
+     <!-- Scroll Js -->
     <link href="./css/scrollReveal.css" rel="stylesheet" type="text/css">
     <title>Portifólio | Amanda da Costa</title>
 </head>
-    <section> 
-      <div class="container" id="menu">
-            <a href="#"><li>Home | Sobre mim</li></a>
-            <a href="#"><li>Conhecimentos</li></a>
-            <a href="https://github.com/mandscs"><li>Github: @mandscs</li></a>
+<body>
+   <!-- tela inicial -->
+      <header id="home">
+        <div class="img-wp">
+        <img src="./img/tela.jpg" alt="">
       </div>
-        <hr>
-    <div class="resum" id="sobre">
-        <img src="./img/Imagem do WhatsApp de 2023-02-06 à(s) 19.48.10.jpg" id="fotoeu">
-    <div>
-      <!-- Sobre Mim -->
-    <h2>Oi, meu nome é Amanda, <br>
-        sou um desenvolvedor Front-End.
-      <br>
-      Amo a natureza, animais e Harry Potter.</h2>
-    </div>
-    </div>
+      <div class="banner">
+        <h1>Web Developer Front-End</h1>
+        <p>Amanda da Costa</p>
+      </div>
+      </header>
+<hr>
+ <!-- sessão 1, sobre mim-->
+<section>
+  <div class="resum" id="sobre">
+    <img src="./img/mandy.jpg" id="fotoeu">
+<div class = "txteu">
+  <h2>Olá, me chamo Amanda.</h2>
+    <p>Tenho 20 anos e moro em Jaraguá do Sul - SC.</p>
+    <p>Amo a natureza, animais e Harry Potter ϟ</p>
+    <br>
     <hr>
+    <h1>Estou estudando: <h1>
+    <div class= "linguagens" id="estudando">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+    </div>  
+    </div>
+  </div>
+  
+</div>
+</section>
+<hr>
     <div class="spotify" id="music">
       <h1>Minha música Favorita:</h1>
-      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7brQHA2CgQpcMBiOlfiXYb?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0uwNtbl80CvP4EFio32PYv?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
       <hr>
     </div>
-    <!-- Conhecimentos -->
+    <!-- sessao 2, conhecimentos -->
   </section>
     <section class="sessao-conhecimentos" id="conhecimentos">
         <div class="sessao-header">
@@ -44,58 +67,110 @@
         <div class="conhecimentos">
           <div class="conhecimento">
             <div class="conhecimento-header">
-              <i class="fab fa-html5"></i>
+              <img src="" alt="html-icon">
               <h3>HTML</h3>
             </div>
             <div class="conhecimento-text">
             </div>
           </div>
-          <div class="conhecimento">
+          <div class="conhecimento" id="css">
             <div class="conhecimento-header">
-              <i class="fab fa-css3-alt"></i>
+              <img src="" alt="css-icon">
               <h3>CSS</h3>
             </div>
             <div class="conhecimento-text">
             </div>
           </div>
           <div class="conhecimento">
-            <div class="conhecimento-header">
-              <i class="fas fa-pencil-alt"></i>
-              <h3>React</h3>
+            <div class="conhecimento-header" id="js">
+              <img src="" alt="js-icon">
+              <h3>Javascript</h3>
             </div>
             <div class="conhecimento-text">
             </div>
           </div>
           <div class="conhecimento">
-            <div class="conhecimento-header">
-              <i class="fab fa-js"></i>
-              <h3>Javascript</h3>
+            <div class="conhecimento-header" id="react">
+              <img src="" alt="react-icon">
+              <h3>React</h3>
             </div>
             <div class="conhecimento-text">
               </p>
             </div>
           </div>
           <div class="conhecimento">
-            <div class="conhecimento-header">
-              <i class="fab fa-bootstrap"></i>
+            <div class="conhecimento-header" id="Boostrap">
+              <img src="" alt="bootstrap-icon">
               <h3>Boostrap</h3>
             </div>
             <div class="conhecimento-text">
             </div>
           </div>
           <div class="conhecimento">
-            <div class="conhecimento-header">
-              <i class="fab fa-github"></i>
+            <div class="conhecimento-header" id="git">
+              <img src="" alt="gits-icon">
               <h3>Git e GitHub</h3>
             </div>
             <div class="conhecimento-text">
             </div>
           </div>
           <div class="conhecimentos-img-wrapper">
-            <img src="./img/undraw_static_assets_rpm6.png" alt="imagem conhecimento">
+            <img src="./img/linguagens.png" alt="imagem conhecimento">
           </div>
         </div>
     </section>
+    <hr>
+    </section>
+    <!-- sessão 3, projetos -->
+    <section>
+    <div class="sessao-projetos" id="projetos">
+      <div class="sessao-projetos">
+        <h1>Projetos</h1>
+      </div>
+      <div class="projetos">
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img src="./img/loading.jpg" alt="">
+          </div>
+          <div class="card-info">
+          <div class=""></div></h2>
+            <h3>Em breve...</h3>
+            <button class="btn">Saiba Mais</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img src="./img/loading.jpg" alt="">
+          </div>
+          <div class="card-info">
+            <h3>Em breve...</h3>
+            <button class="btn">Saiba Mais</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img src="./img/loading.jpg" alt="">
+          </div>
+          <div class="card-info">
+            <h3>Em breve...</h3>
+            <button class="btn">Saiba Mais</button>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </section>
+     <!-- sessão 4, final -->
+      <section>
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="Instagram" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+            <li class="ms-3"><a class="Linkedin" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+            <li class="ms-3"><a class="Whatsapp" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+          </ul>
+        </footer>
+    </section>
     <script src="js/scrollReveal.js"></script>
+    <script src="js/display.js"></script>
 </body>
 </html>
